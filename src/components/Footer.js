@@ -1,5 +1,4 @@
 import React from "react"
-import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa"
 
 import styled from "styled-components"
 import { styles } from "../utils"
