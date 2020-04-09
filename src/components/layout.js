@@ -1,9 +1,9 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import { createGlobalStyle } from "styled-components"
 
 import Navbar from "../components/globals/navbar"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   return (
@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }

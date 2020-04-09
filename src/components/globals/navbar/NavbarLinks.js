@@ -7,9 +7,9 @@ const NavbarLinks = ({ navbarOpen }) => {
   return (
     <LinkWrapper open={navbarOpen}>
       <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/menu">Menu</Link>
-      <Link to="/contact">Contact</Link>
+      <Link to="/about/">About</Link>
+      <Link to="/menu/">Menu</Link>
+      <Link to="/contact/">Contact</Link>
     </LinkWrapper>
   )
 }
