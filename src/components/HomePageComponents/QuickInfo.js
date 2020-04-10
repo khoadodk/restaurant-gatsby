@@ -15,8 +15,9 @@ const QuickInfo = () => {
           pariatur, qui impedit exercitationem cum eius odit explicabo alias
           libero voluptatum. Aperiam?
         </p>
-        <Link to="/about/" style={{ textDecoration: "none" }} />
-        <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
+        <Link to="/about/" style={{ textDecoration: "none" }}>
+          <SectionButton style={{ margin: "2rem auto" }}>about</SectionButton>
+        </Link>
       </QuickInfoWrapper>
     </Section>
   )

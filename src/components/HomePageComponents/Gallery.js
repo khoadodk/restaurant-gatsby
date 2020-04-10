@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import { styles, Section } from "../../utils"
+import { styles, Section, Title } from "../../utils"
 
 const GALLERY_IMAGES = graphql`
   {
@@ -41,6 +41,7 @@ const Gallery = () => {
         const img3 = data.img3.childImageSharp.fluid
         return (
           <Section>
+            <Title message="" title="gallery" />
             <GalleryWrapper>
               <div className="item item-1">
                 <Img fluid={img1} />
