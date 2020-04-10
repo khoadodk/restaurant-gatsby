@@ -8,7 +8,7 @@ import { styles } from "../../../utils"
 const NavbarHeader = ({ handleNavbar }) => {
   return (
     <HeaderWrapper>
-      <Link>
+      <Link to="/">
         <img src={logo} alt="logo" />
       </Link>
       <FaAlignRight

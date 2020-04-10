@@ -1,10 +1,11 @@
 import React from "react"
 
+import { HomeHeader, Banner, BannerButton } from "../utils"
+import img from "../images/bcg/homeBcg.jpeg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import QuickInfo from "../components/HomePageComponents/QuickInfo"
-import { HomeHeader, Banner, BannerButton } from "../utils"
-import img from "../images/bcg/homeBcg.jpeg"
+import Gallery from "../components/HomePageComponents/Gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 

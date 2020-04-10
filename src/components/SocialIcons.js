@@ -32,6 +32,10 @@ const SocialIcons = () => {
 }
 
 const IconWrapper = styled.div`
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+
   .icon {
     font-size: 1.3rem;
     cursor: pointer;
@@ -49,7 +53,6 @@ const IconWrapper = styled.div`
   .twitter-icon {
     color: #3ab7f0;
   }
-  display: none;
 `
 
 export default SocialIcons
