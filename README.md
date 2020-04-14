@@ -1,6 +1,6 @@
 # Gatsby Restaurant
 
-- A JAM stack website build with Gatsby on Front-End, Contentful as Headless CMS
+- A JAM stack website built with Gatsby on Front-End, Contentful as Headless CMS
 
 - Tech stack: Gatsby, styled-components, Contentful
 
